@@ -1,3 +1,23 @@
-body {
-  background-color: red;
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  list-style-type: none;
+  margin-left: 40%;
+
+  .nav-link {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
