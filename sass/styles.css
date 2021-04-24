@@ -1,0 +1,14 @@
+body {
+  background-color: red;
+}
+
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
