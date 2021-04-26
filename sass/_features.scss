@@ -1,0 +1,17 @@
+.features {
+  color: #fff;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 94px 158px;
+  margin: 130px 0;
+  padding: 0 280px;
+
+  .feature {
+    text-align: center;
+  }
+
+  h3 {
+    margin: 3%;
+  }
+}

@@ -4,6 +4,11 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 73px 80px;
 }
 
 .nav-items {
@@ -29,6 +34,128 @@
 .nav-items a {
   color: #fff;
   text-decoration: none;
+  margin-right: 15%;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+  width: 100%;
+  min-height: 100vh;
+  background: #1c2431 url(/images/bg-curvy-desktop.svg) bottom no-repeat;
+  background-size: 100%;
+}
+
+.hero h2 {
+  color: #fff;
+  font-size: 40px;
+  width: 65%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.hero p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.hero a {
+  color: #fff;
+  border: 1px solid #00ced1;
+  background-color: #00ced1;
+  border-radius: 25px;
+  width: 240px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.features {
+  color: #fff;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 94px 158px;
+  margin: 130px 0;
+  padding: 0 280px;
+}
+
+.features .feature {
+  text-align: center;
+}
+
+.features h3 {
+  margin: 3%;
+}
+
+.extra-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 180px;
+}
+
+.extra-description .text-box {
+  color: #fff;
+}
+
+.extra-description .text-box h2 {
+  font-size: 45px;
+}
+
+.extra-description .text-box p {
+  font-size: 16px;
+}
+
+.extra-description .text-box :not(:last-child) {
+  margin-bottom: 2%;
+}
+
+.extra-description .desc-link {
+  color: #3eb8dd;
+  text-decoration: none;
+  border-bottom: 1px solid #3eb8dd;
+  padding-bottom: 1%;
+}
+
+.extra-description .img-box img {
+  height: 468px;
+  width: auto;
 }
 
 *,

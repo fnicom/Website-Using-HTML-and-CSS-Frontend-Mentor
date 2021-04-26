@@ -1,0 +1,34 @@
+.extra-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 180px;
+
+  .text-box {
+    color: #fff;
+
+    h2 {
+      font-size: 45px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .text-box :not(:last-child) {
+    margin-bottom: 2%;
+  }
+
+  .desc-link {
+    color: #3eb8dd;
+    text-decoration: none;
+    border-bottom: 1px solid #3eb8dd;
+    padding-bottom: 1%;
+  }
+
+  .img-box {
+    img {
+      height: 468px;
+      width: auto;
+    }
+  }
+}
